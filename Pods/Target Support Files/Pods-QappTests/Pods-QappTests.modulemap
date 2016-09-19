@@ -1,0 +1,6 @@
+framework module Pods_QappTests {
+  umbrella header "Pods-QappTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

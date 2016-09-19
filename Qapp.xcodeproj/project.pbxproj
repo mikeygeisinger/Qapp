@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682159DA1D8F708E003EF6E1 /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682159D91D8F708E003EF6E1 /* LogInPage.swift */; };
 		68E68AAD1D8C8E3C00521584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E68AAC1D8C8E3C00521584 /* AppDelegate.swift */; };
 		68E68AAF1D8C8E3C00521584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E68AAE1D8C8E3C00521584 /* ViewController.swift */; };
 		68E68AB21D8C8E3C00521584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E68AB01D8C8E3C00521584 /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		68E68ABA1D8C8E3C00521584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E68AB81D8C8E3C00521584 /* LaunchScreen.storyboard */; };
 		68E68AC51D8C8E3C00521584 /* QappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E68AC41D8C8E3C00521584 /* QappTests.swift */; };
 		68E68AD01D8C8E3C00521584 /* QappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E68ACF1D8C8E3C00521584 /* QappUITests.swift */; };
+		68E68AE01D8CA23200521584 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68E68ADF1D8CA23200521584 /* GoogleService-Info.plist */; };
+		6EAD673DB9C69C3AA156928E /* Pods_QappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87564DE8EEC2977C7F4BCF63 /* Pods_QappTests.framework */; };
+		A2C9C0ED6C64BE211EEA69A7 /* Pods_QappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318621BED966626A04E07218 /* Pods_QappUITests.framework */; };
+		F0DF01875F74E46DACEBFF05 /* Pods_Qapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1649DDAEC4F0E5F396F3DB2 /* Pods_Qapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11F086EA218945795694B9F3 /* Pods-QappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QappUITests/Pods-QappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F4DA93450A1F4AF20682AA8 /* Pods-Qapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qapp/Pods-Qapp.debug.xcconfig"; sourceTree = "<group>"; };
+		318621BED966626A04E07218 /* Pods_QappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DE03261412A44D18C1E68B /* Pods-QappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QappTests/Pods-QappTests.release.xcconfig"; sourceTree = "<group>"; };
+		611986C2B89730A7663EF05D /* Pods-Qapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Qapp/Pods-Qapp.release.xcconfig"; sourceTree = "<group>"; };
+		682159D91D8F708E003EF6E1 /* LogInPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
 		68E68AA91D8C8E3C00521584 /* Qapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E68AAC1D8C8E3C00521584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68E68AAE1D8C8E3C00521584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		68E68ACB1D8C8E3C00521584 /* QappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E68ACF1D8C8E3C00521584 /* QappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QappUITests.swift; sourceTree = "<group>"; };
 		68E68AD11D8C8E3C00521584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E68ADF1D8CA23200521584 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87564DE8EEC2977C7F4BCF63 /* Pods_QappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4E42DA63D715EF9FCEB72D /* Pods-QappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QappTests/Pods-QappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBC34FC3237659BBA37DCFF0 /* Pods-QappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QappUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QappUITests/Pods-QappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1649DDAEC4F0E5F396F3DB2 /* Pods_Qapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DF01875F74E46DACEBFF05 /* Pods_Qapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EAD673DB9C69C3AA156928E /* Pods_QappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C9C0ED6C64BE211EEA69A7 /* Pods_QappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0503A05A012F3CB6728ECD41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1649DDAEC4F0E5F396F3DB2 /* Pods_Qapp.framework */,
+				87564DE8EEC2977C7F4BCF63 /* Pods_QappTests.framework */,
+				318621BED966626A04E07218 /* Pods_QappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28A0E6727205710BE7E9F31F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F4DA93450A1F4AF20682AA8 /* Pods-Qapp.debug.xcconfig */,
+				611986C2B89730A7663EF05D /* Pods-Qapp.release.xcconfig */,
+				AD4E42DA63D715EF9FCEB72D /* Pods-QappTests.debug.xcconfig */,
+				50DE03261412A44D18C1E68B /* Pods-QappTests.release.xcconfig */,
+				11F086EA218945795694B9F3 /* Pods-QappUITests.debug.xcconfig */,
+				CBC34FC3237659BBA37DCFF0 /* Pods-QappUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		68E68AA01D8C8E3C00521584 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				68E68AC31D8C8E3C00521584 /* QappTests */,
 				68E68ACE1D8C8E3C00521584 /* QappUITests */,
 				68E68AAA1D8C8E3C00521584 /* Products */,
+				28A0E6727205710BE7E9F31F /* Pods */,
+				0503A05A012F3CB6728ECD41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +145,11 @@
 			children = (
 				68E68AAC1D8C8E3C00521584 /* AppDelegate.swift */,
 				68E68AAE1D8C8E3C00521584 /* ViewController.swift */,
+				682159D91D8F708E003EF6E1 /* LogInPage.swift */,
 				68E68AB01D8C8E3C00521584 /* Main.storyboard */,
 				68E68AB61D8C8E3C00521584 /* Assets.xcassets */,
 				68E68AB81D8C8E3C00521584 /* LaunchScreen.storyboard */,
+				68E68ADF1D8CA23200521584 /* GoogleService-Info.plist */,
 				68E68ABB1D8C8E3C00521584 /* Info.plist */,
 				68E68AB31D8C8E3C00521584 /* Qapp.xcdatamodeld */,
 			);
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68E68AD41D8C8E3C00521584 /* Build configuration list for PBXNativeTarget "Qapp" */;
 			buildPhases = (
+				FD240A2A4D7164114252987D /* [CP] Check Pods Manifest.lock */,
 				68E68AA51D8C8E3C00521584 /* Sources */,
 				68E68AA61D8C8E3C00521584 /* Frameworks */,
 				68E68AA71D8C8E3C00521584 /* Resources */,
+				C5C5796BA82D29CC77C48346 /* [CP] Embed Pods Frameworks */,
+				53F10AE4F88FD77E434CDC7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68E68AD71D8C8E3C00521584 /* Build configuration list for PBXNativeTarget "QappTests" */;
 			buildPhases = (
+				EE037F5B63512A2F27B1BCEF /* [CP] Check Pods Manifest.lock */,
 				68E68ABC1D8C8E3C00521584 /* Sources */,
 				68E68ABD1D8C8E3C00521584 /* Frameworks */,
 				68E68ABE1D8C8E3C00521584 /* Resources */,
+				20ACC14C09AE66A663EE3A95 /* [CP] Embed Pods Frameworks */,
+				B8DC34EC4E1F71984C828B0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68E68ADA1D8C8E3C00521584 /* Build configuration list for PBXNativeTarget "QappUITests" */;
 			buildPhases = (
+				115C37473F17D6906FE7714E /* [CP] Check Pods Manifest.lock */,
 				68E68AC71D8C8E3C00521584 /* Sources */,
 				68E68AC81D8C8E3C00521584 /* Frameworks */,
 				68E68AC91D8C8E3C00521584 /* Resources */,
+				8AFFE026E2BB8C47EDB468D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68E68ABA1D8C8E3C00521584 /* LaunchScreen.storyboard in Resources */,
+				68E68AE01D8CA23200521584 /* GoogleService-Info.plist in Resources */,
 				68E68AB71D8C8E3C00521584 /* Assets.xcassets in Resources */,
 				68E68AB21D8C8E3C00521584 /* Main.storyboard in Resources */,
 			);
@@ -254,11 +309,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		115C37473F17D6906FE7714E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20ACC14C09AE66A663EE3A95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QappTests/Pods-QappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53F10AE4F88FD77E434CDC7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Qapp/Pods-Qapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFFE026E2BB8C47EDB468D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QappUITests/Pods-QappUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8DC34EC4E1F71984C828B0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QappTests/Pods-QappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5C5796BA82D29CC77C48346 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Qapp/Pods-Qapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE037F5B63512A2F27B1BCEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD240A2A4D7164114252987D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68E68AA51D8C8E3C00521584 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682159DA1D8F708E003EF6E1 /* LogInPage.swift in Sources */,
 				68E68AAF1D8C8E3C00521584 /* ViewController.swift in Sources */,
 				68E68AAD1D8C8E3C00521584 /* AppDelegate.swift in Sources */,
 				68E68AB51D8C8E3C00521584 /* Qapp.xcdatamodeld in Sources */,
@@ -399,6 +578,7 @@
 		};
 		68E68AD51D8C8E3C00521584 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F4DA93450A1F4AF20682AA8 /* Pods-Qapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Qapp/Info.plist;
@@ -410,6 +590,7 @@
 		};
 		68E68AD61D8C8E3C00521584 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 611986C2B89730A7663EF05D /* Pods-Qapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Qapp/Info.plist;
@@ -421,6 +602,7 @@
 		};
 		68E68AD81D8C8E3C00521584 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4E42DA63D715EF9FCEB72D /* Pods-QappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QappTests/Info.plist;
@@ -433,6 +615,7 @@
 		};
 		68E68AD91D8C8E3C00521584 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50DE03261412A44D18C1E68B /* Pods-QappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QappTests/Info.plist;
@@ -445,6 +628,7 @@
 		};
 		68E68ADB1D8C8E3C00521584 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F086EA218945795694B9F3 /* Pods-QappUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = QappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -457,6 +641,7 @@
 		};
 		68E68ADC1D8C8E3C00521584 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC34FC3237659BBA37DCFF0 /* Pods-QappUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = QappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -486,6 +671,7 @@
 				68E68AD61D8C8E3C00521584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68E68AD71D8C8E3C00521584 /* Build configuration list for PBXNativeTarget "QappTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +680,7 @@
 				68E68AD91D8C8E3C00521584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68E68ADA1D8C8E3C00521584 /* Build configuration list for PBXNativeTarget "QappUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +689,7 @@
 				68E68ADC1D8C8E3C00521584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
